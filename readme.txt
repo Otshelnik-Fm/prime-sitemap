@@ -22,7 +22,7 @@
 
 1. В адресной строке сайта вводите <code>ваш-сайт/?prime_forum_sitemap_secret_reload</code> - и в корне вашего сайта создастся файл <code>primeforum-sitemap.xml</code>. В дальнейшем, если вы не хотите ждать суточного обновления карты форума, можете от лица админа переходить по этому урл и карта будет обновляться. Но вы можете изменить событие крона на выполняемое раз в час или дважды в день - заменив <code>rcl_cron_daily_schedule</code> на <code>rcl_cron_hourly_schedule</code> или <code>rcl_cron_twicedaily_schedule</code> соответственно.
 
-2. Открываем файл <code>robots.txt</code> и вписываем новую карту, так: <code>Sitemap: https:/ваш-сайт/primeforum-sitemap.xml</code> - укажите только ваш домен.
+2. Открываем файл <code>robots.txt</code> и вписываем новую карту, так: <code>Sitemap: https://ваш-сайт/primeforum-sitemap.xml</code> - укажите только ваш домен и его протокол (http или https).
 
 3. Переходите в гугл: "Search Console" -> "Сканирование" -> "Файлы Sitemap" и справа вверху жмёте "Добавление/проверка файла sitemap". Добавляем туда наш файл (на скриншоте показал)
 
